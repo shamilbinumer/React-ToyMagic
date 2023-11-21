@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+.navbar{
+    position: sticky;
+    top: 0;
+}
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.729),rgba(0, 0, 0, 0.729)),url(./child-having-fun-during-playtime.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.main-content{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    padding-top: 200px !important;
+}
+.main-content h1{
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+.main-content p{
+    color: white;
+    margin-bottom: 40px;
+}
+.explr-btn{
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: white;
+    transition: .2s;
+}
+.explr-btn:hover{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}

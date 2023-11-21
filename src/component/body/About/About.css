@@ -1,0 +1,29 @@
+body{
+    color: white !important;
+}
+.heading{
+    /* text-align: center; */
+    padding-top: 5vh;
+}
+p{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.main{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.745),rgba(0, 0, 0, 0.751)),url(../../../../public/portrait-young-boy-with-teddy-bears.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.m-detls{
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    transition: .2s;
+    font-weight: 700;
+}
+.m-detls:hover{
+    background-color: white;
+    color: black;
+}
